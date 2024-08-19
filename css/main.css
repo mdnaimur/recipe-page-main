@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-white: hsl(0, 0%, 100%);
+    --primay-stone-100:hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+
+    --Brown-800: hsl(14, 45%, 36%);
+
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+
+    --paragraph-font:16px
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-family:  "Outfit" "Young Serif", sans-serif;
+    background-color: var(--Rose-50);
+}
+
+.main-card{
+    width: 40%;
+    padding: 30px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+
+    background-color: var(--primary-white);
+}
+
+.image{
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: 25px;
+
+}
+
+.image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+h1{
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+strong{
+    font-weight: 600;
+    font-size: var(--paragraph-font);
+}
+
+.content{
+    font-size: var(--paragraph-font);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.time{
+    padding: 22px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    background-color: var(--Rose-50);
+
+}
+
+.time .pre-time{
+    font-size: 22px;
+    color: var(--Rose-800);
+}
+
+ ul li::marker {
+    color: var(--Rose-800); /* Rose color */
+  }
+
+ul{
+    padding: 12px;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: var(--paragraph-font);
+    margin: 5px 0;
+    padding: 5px;
+
+}
+
+h2{
+    color: var(--Brown-800);
+    font-size: 30px;
+}
+
+
+ol{
+    counter-reset: item;
+}
+
+ol li {
+    font-size: var(--paragraph-font);
+    margin: 5px 0;
+    padding: 7px;
+    display: block;
+
+}
+
+ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    color: var(--Rose-800);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 10x;
+    text-wrap: pretty;
+   
+}
