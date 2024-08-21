@@ -66,6 +66,6 @@ const proudOfThisFunc = () => {
 
 - Website - [Md Naimur Rahman](https://www.linkedin.com/in/md-naimur-rahman/)
 - Frontend Mentor - [@mdnaimur](https://frontendmentor.io/profile/mdnaimur)
-- Twitter - [@MdNaimurRahmanD](https://twitter.com/md_naimur100)
+- Twitter - [@md_naimur100](https://twitter.com/md_naimur100)
 
   **Have fun building!** 🚀
